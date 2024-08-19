@@ -28,17 +28,24 @@ body {
 /* Pseudo classes/elements */
 
 footer {
-   background-color: #000080;
-   color: white;
+   background-color: white;
+   color: #000080;
    text-align: center;
    margin-left: auto;
    margin-right: auto;
 }
+
 footer img {
    max-width: 100%;
    height: auto;
    
 }
+
+footer nav ul li {
+	display: inline-block;
+	margin-left: auto;
+ 
+ }
 
 /* Media query for screens up to 768px */
 @media only screen and (max-width: 768px){
