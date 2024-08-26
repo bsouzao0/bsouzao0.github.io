@@ -17,7 +17,12 @@ html {
 	color: #0f216c;
 	width: 100%;
  }
- 
+
+ header img {
+	max-width: 100%;
+	height: auto;
+}
+
  header nav {
 	background-color: #1836a7;
 	padding: 10px;
