@@ -47,6 +47,7 @@ h1 {
 h2 {
    font-family: "EB Garamond", sans-serif;
    font-size: 1.20em;
+   font-style: italic;
 }
 
 header div {
@@ -57,7 +58,7 @@ header div {
    padding: 10px;
    z-index: 1; 
    margin: 0;
-   font-style: italic;
+   
 }
 
 header nav {
