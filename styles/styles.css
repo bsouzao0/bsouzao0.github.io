@@ -48,13 +48,12 @@ header div {
    position: absolute; 
    left: 40%;
    transform: translateX(-50%); 
-   top: 40%; 
+   top: 42%; 
    font-family: "EB Garamond", sans-serif;
    font-size: 1.20em; 
    padding: 10px;
    z-index: 1; 
    margin: 0;
-   font-style: italic;
 }
 
 header nav {
