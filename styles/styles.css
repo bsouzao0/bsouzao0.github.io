@@ -44,12 +44,6 @@ h1 {
    margin: 0; 
 }
 
-h2 {
-   font-family: "EB Garamond", sans-serif;
-   font-size: 1.20em;
-   font-style: italic;
-}
-
 header div {
    position: absolute; 
    left: 40%;
@@ -58,7 +52,9 @@ header div {
    padding: 10px;
    z-index: 1; 
    margin: 0;
-   
+   font-family: "EB Garamond", sans-serif;
+   font-size: 1.20em;
+   font-style: italic;
 }
 
 header nav {
