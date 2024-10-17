@@ -44,7 +44,7 @@ h1 {
    margin: 0; 
 }
 
-header div {
+h2 {
    position: absolute; 
    left: 40%;
    transform: translateX(-50%); 
@@ -81,14 +81,6 @@ header nav ul li:first-child {
    margin-left: 0;
 }
 
-/* Headings */
-
-
-h2 {
-   font-size: 1.8em;
-   font-family: 'Caveat', cursive;
-	text-align: center;
-}
 
 /* Link Styles */
 a:link {
