@@ -6,39 +6,76 @@ html {
 }
 
 body {
-   font-family: "EB Garamond", serif;
+   font-family: "EB Garamond", sans-serif;
    max-width: 960px;
    min-width: 640px;
    padding: 20px;
    color: #0f216c;
    margin: 0 auto;
+   font-size: 1.1em;
 }
 
 /* Header */
 header {
-   color: #0f216c;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    width: 100%;
+   text-align: center;
+   color: #0f216c;
+
+}
+
+header img {
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+h1 {
+   position: absolute; 
+   left: 50%;
+   transform: translateX(-50%); 
+   top: 25%; 
+   font-size: 2.10em; 
+   font-family: 'Caveat', cursive;
+   z-index: 1; 
+   margin: 0; 
+}
+
+header div {
+   position: absolute; 
+   left: 40%;
+   transform: translateX(-50%); 
+   top: 40%; 
+   font-family: "EB Garamond", sans-serif;
+   font-size: 1.20em; 
+   padding: 10px;
+   z-index: 1; 
+   margin: 0;
+   font-style: italic;
 }
 
 header nav {
    background-color: white;
    font-weight: bold;
-}
-
-header img {
-	max-width: 100%;
-	height: auto;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin: 20px 0;
 }
 
 header nav ul {
    list-style-type: none;
    padding: 0;
    margin: 0;
+   display: flex;
 }
 
 header nav ul li {
-   display: inline-block;
-   margin-left: 15px;
+   margin: 0 15px;
+   
 }
 
 header nav ul li:first-child {
@@ -46,10 +83,15 @@ header nav ul li:first-child {
 }
 
 /* Headings */
-h1, h2 {
-	font-family: 'Caveat', cursive;
+
+
+
+h2 {
+   font-size: 1.8em;
+   font-family: 'Caveat', cursive;
 	text-align: center;
 }
+
 /* Link Styles */
 a:link {
 	color: #00437a;
@@ -59,7 +101,6 @@ a:link {
  a:visited {
 	color: #a20074;
  }
-
 
 /* Img */
 .center {
@@ -74,12 +115,22 @@ a:link {
 	text-align: center;
  }
 
+ /* Form */
+ form {
+   text-align: center;
+ }
+ 
+ label {
+   display: block;
+   margin: 0.5rem 0;
+ }
+
 /* Footer */
 footer {
-   background-color: white;
    text-align: center;
    margin: 20px auto 0 auto;
    width: 100%;
+   padding: 10px 0;
 }
 
 footer img {
@@ -98,20 +149,27 @@ footer nav ul li {
 @media only screen and (max-width: 768px) {
    header {
       padding: 10px;
-   }
+  }
 
-   header nav ul {
-      display: block;
-   }
+  header nav {
+      flex-direction: column;
+  }
 
-   main {
-      padding: 10px;
-   }
+  header nav ul {
+      display: block; 
+      text-align: center; 
+  }
+  header div {
+   margin-top: 20px;
+  }
 }
 
 @media only screen and (min-width: 769px) {
    header nav ul {
-      display: block;
+      display: flex;
+   }
+   header nav {
+      flex-direction: row;
    }
 }
 
