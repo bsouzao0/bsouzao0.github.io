@@ -7,8 +7,6 @@ html {
 
 body {
    font-family: "EB Garamond", sans-serif;
-   max-width: 960px;
-   min-width: 640px;
    padding: 20px;
    color: #0f216c;
    margin: 0 auto;
@@ -158,6 +156,7 @@ footer nav ul li {
 @media only screen and (min-width: 769px) {
    header nav ul {
       display: flex;
+      
    }
    header nav {
       flex-direction: row;
