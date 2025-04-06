@@ -120,6 +120,10 @@ footer {
    padding: 10px 0;
 }
 
+footer a {
+   text-decoration: none;
+}
+
 footer img {
    max-width: 100%;
    height: auto;
