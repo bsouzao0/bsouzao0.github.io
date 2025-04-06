@@ -80,7 +80,7 @@ header nav ul li:first-child {
 
 
 /* Link Styles */
-a:link {
+a {
 	color: #00437a;
 	text-decoration: none; 
  }
