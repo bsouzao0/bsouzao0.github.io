@@ -86,7 +86,7 @@ a:link {
  }
  
  a:visited {
-	color: #a20074;
+	text-decoration: none; 
  }
 
 /* Img */
